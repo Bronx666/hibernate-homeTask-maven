@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>9b671490-1eb4-4a81-bac4-a23ad8c7f81f.TABLE:postgres.public.cinema</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">9b671490-1eb4-4a81-bac4-a23ad8c7f81f.TABLE:postgres.public.cinema</node>
+    <node x="0.0" y="339.0">9b671490-1eb4-4a81-bac4-a23ad8c7f81f.TABLE:postgres.public.eventfilm</node>
+    <node x="426.11976047904193" y="239.6047904191617">9b671490-1eb4-4a81-bac4-a23ad8c7f81f.TABLE:postgres.public.ticket</node>
+    <node x="4.5" y="150.0">9b671490-1eb4-4a81-bac4-a23ad8c7f81f.TABLE:postgres.public.hall</node>
+    <node x="228.0" y="339.0">9b671490-1eb4-4a81-bac4-a23ad8c7f81f.TABLE:postgres.public.users</node>
+    <node x="217.0" y="0.0">9b671490-1eb4-4a81-bac4-a23ad8c7f81f.TABLE:postgres.public.film</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="9b671490-1eb4-4a81-bac4-a23ad8c7f81f.TABLE:postgres.public.hall" target="9b671490-1eb4-4a81-bac4-a23ad8c7f81f.TABLE:postgres.public.cinema" relationship="REFERENCES">
+      <point x="0.0" y="-72.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.4140159045725647" showDependencies="false" x="169.95707039348366" y="435.10333919156415" />
+  <SelectedNodes>
+    <node>9b671490-1eb4-4a81-bac4-a23ad8c7f81f.TABLE:postgres.public.hall</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
